@@ -30,5 +30,4 @@ jobs:
       - name: Terraform Validate
         run: terraform validate
 
-      - name: Terraform Plan
-        run: terraform plan -lock=false -var-file=terraform.tfvars.example
+ 

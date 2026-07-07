@@ -1,0 +1,32 @@
+# Terraform
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform Lock File
+# Keep this if you want reproducible provider versions
+# Remove the next line if you want to commit .terraform.lock.hcl
+# .terraform.lock.hcl
+
+# Environment files
+*.tfvars
+!infra/envs/dev/terraform.tfvars.example
+
+# Backup files
+backups/
+
+# Python
+__pycache__/
+*.pyc
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
